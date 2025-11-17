@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vince Loquinto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+            <div class="profile-container">
+                <div class="profile-inner">
+                    <div class="img-container">
+                         <img src="profile.jpg" alt="Vince Loquinto">
+                    </div>
+                        <div class="profile-row">
+                            <p class="name">vince loquinto</p>
+                           <ul class="list">
+                            <li>web developer</li>
+                            <li>designer</li>
+                            <li>3d artist</li>
+                            <li>rapper</li>
+                            <li>millionaire</li>
+                            <li>handsome</li>
+                           </ul>
+                        </div>
+                </div>
+            </div>
+            <!-- ABOUTME -->
+                <div class="aboutme-container">
+                    
+                    <p class="abtme">i am a graduating student, currently in our capstone phase.
+                       i am still learning web development, I use html, css and js, i know decent on react,
+                       also i have a knowledge in designing like figma, also learning blender a 3d software.
+                    </p>
+                    
+                </div>
+
+                <!-- MY SKILLS -->
+            <div class="skills">
+
+                <h1 class="header">Skills</h1>
+                    <div class="skill-grid">
+                            <p>html</p>
+                            <p>css</p>
+                            <p>javascript</p>
+                            <p>react</p>
+                            <p>figma</p>
+                            <p>blender</p>
+                            <p>php</p>
+                            <p>bootstrap</p>
+                    </div>
+
+            </div>
+            <!-- MY EXPERIENCES -->
+            <div class="projects">
+                 <h1>projects</h1>
+                <div class="project-grid">
+               
+                <div class="project1">empty</div>
+                <div class="project1">empty</div>
+                <div class="project1">empty</div>
+            </div>
+            </div>
+    </div>
+    
+    <script>
+        const paragraph = document.querySelectorAll('p');
+
+        paragraph.forEach((p, index) =>{
+            p.addEventListener("mouseover", ()=>{
+                p.style.transform = `scale(1.05)`;
+            });
+        p.addEventListener("mouseout", ()=>{
+            p.style.transform = '';
+        })
+        
+        })
+    </script>
+</body>
+</html>
